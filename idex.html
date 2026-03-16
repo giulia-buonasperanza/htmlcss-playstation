@@ -14,15 +14,71 @@
     <link rel="stylesheet" href="./style/index.css">
 </head>
 
-<header>
+<header class="fixed-top">
+        <!--Topbar-->
+        <div class="bg-black d-flex justify-content-end align-items-center">       
+        <div class="logo-sony justify-content-end align-items-center px-2">
+            <img src="./img/sony_logo.svg" alt="logo sony" >
+        </div>
+        </div>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt="Logo Playstation" width="40" height="40"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Giochi
+                            </a>
+                            <ul class="dropdown-giochi">
+                                <li class="lista-playstation">
+                                    <ul class="dropdown-menu Playstation">
+                                        <li><a href="#"><img src="./img/play-menu-ico.png" alt="play3" width="40" height="40"></a>
+                                            <p>Palystation 3</p>
+                                        </li>
+                                        <li><a href="#"><img src="./img/play-menu-ico.png" alt="play4" width="40" height="40"></a>
+                                            <p>Palystation 4</p>
+                                        </li>
+                                        <li><a href="#"><img src="./img/play-menu-ico.png" alt="play5" width="40" height="40"></a>
+                                            <p>Palystation 5</p>
+                                        </li>
+                                    </ul>                                                             
+                                <li>
+                                <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <ul class="dropdown-menu gioco text-black">
+                                        <li class="d-block">Gioco 1</li>
+                                        <li>Gioco 2</li>
+                                        <li>Gioco 3</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
     
+
 </header>
 
 <body>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
-    </script>
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>

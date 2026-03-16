@@ -10,3 +10,18 @@ body {
  font-family: Helvetica, Arial, sans-serif;
 }
  
+.logo-sony img {
+    width: 3rem; 
+}
+
+.dropdown-giochi li{
+    list-style: none;
+
+}
+
+.dropdown-giochi{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
