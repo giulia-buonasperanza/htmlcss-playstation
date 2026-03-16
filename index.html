@@ -16,17 +16,19 @@
 
 <body>
 
-<header class="fixed-top">
+    <header class="fixed-top">
         <!--Topbar-->
-        <div class="bg-black d-flex justify-content-end align-items-center">       
-        <div class="logo-sony justify-content-end align-items-center px-2">
-            <img src="./img/sony_logo.svg" alt="logo sony" >
-        </div>
+        <div class="bg-black d-flex justify-content-end align-items-center">
+            <div class="logo-sony justify-content-end align-items-center px-2">
+                <img src="./img/sony_logo.svg" alt="logo sony">
+            </div>
         </div>
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt="Logo Playstation" width="40" height="40"></a>
+                <!--Logo-->
+                <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt="Logo Playstation" width="40"
+                        height="40"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -34,19 +36,25 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!--Parte iniziale dropdown-->   
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Giochi
                             </a>
-                            <ul class="dropdown-menu playstation ">
-                                <li><a href="#"><img src="./img/play-menu-ico.png" alt="icona play" width="40" height="40"></a>Playstation3</li>
-                                <li><a href="#"><img src="./img/play-menu-ico.png" alt="icona play" width="40" height="40"></a>Playstation4</li>
-                                <li><a href="#"><img src="./img/play-menu-ico.png" alt="icona play" width="40" height="40"></a>Playstation5</li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li class="px-2"><a href="#">Gioco 1</a></li>
-                                <li class="px-2"><a href="#">Gioco 2</a></li>
-                                <li class="px-2"><a href="#">Gioco 3</a></li>
+                            <ul class="dropdown-menu">
+                                <li class="d-inline-block px-3"><a href="#"> <img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation3</li>
+                                <li class="d-inline-block px-3"><a href="#"><img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation4</li>
+                                <li class="d-inline-block px-3"><a href="#"><img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation5</li>
+                                <li class="d-block">
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="px-2 d-inline-block"><a href="#">Gioco 1</a></li>
+                                <li class="px-2 d-inline-block"><a href="#">Gioco 2</a></li>
+                                <li class="px-2 d-inline-block"><a href="#">Gioco 3</a></li>
                             </ul>
                         </li>
 
@@ -55,29 +63,134 @@
                                 aria-expanded="false">
                                 Hardware
                             </a>
-                            <ul class="dropdown-menu playstation ">
-                                <li><a href="#"><img src="./img/play-menu-ico.png" alt="icona play" width="40" height="40"></a>Playstation3</li>
-                                <li><a href="#"><img src="./img/play-menu-ico.png" alt="icona play" width="40" height="40"></a>Playstation4</li>
-                                <li><a href="#"><img src="./img/play-menu-ico.png" alt="icona play" width="40" height="40"></a>Playstation5</li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li class="px-2"><a href="#">Hardware 1</a></li>
-                                <li class="px-2"><a href="#">Hardware 2</a></li>
-                                <li class="px-2"><a href="#">Hardware 3</a></li>
+                            <ul class="dropdown-menu playstation">
+                                <li class="d-inline-block px-3"><a href="#"><img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation3</li>
+                                <li class="d-inline-block px-3 "><a href="#"><img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation4</li>
+                                <li class="d-inline-block px-3 "><a href="#"><img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation5</li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="px-2 d-inline-block"><a href="#">Hardware 1</a></li>
+                                <li class="px-2 d-inline-block"><a href="#">Hardware 2</a></li>
+                                <li class="px-2 d-inline-block"><a href="#">Hardware 3</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Servizi
+                            </a>
+                            <ul class="dropdown-menu playstation">
+                                <li class="d-inline-block px-3"><a href="#"><img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation3</li>
+                                <li class="d-inline-block px-3 "><a href="#"><img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation4</li>
+                                <li class="d-inline-block px-3 "><a href="#"><img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation5</li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="px-2 d-inline-block"><a href="#">Servizi 1</a></li>
+                                <li class="px-2 d-inline-block"><a href="#">Servizi 2</a></li>
+                                <li class="px-2 d-inline-block"><a href="#">Servizi 3</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Novità
+                            </a>
+                            <ul class="dropdown-menu playstation">
+                                <li class="d-inline-block px-3"><a href="#"><img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation3</li>
+                                <li class="d-inline-block px-3 "><a href="#"><img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation4</li>
+                                <li class="d-inline-block px-3 "><a href="#"><img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation5</li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="px-2 d-inline-block"><a href="#">Novità 1</a></li>
+                                <li class="px-2 d-inline-block"><a href="#">Novità 2</a></li>
+                                <li class="px-2 d-inline-block"><a href="#">Novità 3</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Fai acquisti
+                            </a>
+                            <ul class="dropdown-menu playstation">
+                                <li class="d-inline-block px-3"><a href="#"><img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation3</li>
+                                <li class="d-inline-block px-3 "><a href="#"><img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation4</li>
+                                <li class="d-inline-block px-3 "><a href="#"><img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation5</li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="px-2 d-inline-block"><a href="#">Acquisti 1</a></li>
+                                <li class="px-2 d-inline-block"><a href="#">Acquisti 2</a></li>
+                                <li class="px-2 d-inline-block"><a href="#">Acquisti 3</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Supporto
+                            </a>
+                            <ul class="dropdown-menu playstation">
+                                <li class="d-inline-block px-3"><a href="#"><img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation3</li>
+                                <li class="d-inline-block px-3 "><a href="#"><img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation4</li>
+                                <li class="d-inline-block px-3 "><a href="#"><img src="./img/play-menu-ico.png"
+                                            alt="icona play" width="40" height="40"></a>Playstation5</li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="px-2 d-inline-block"><a href="#">Supporto 1</a></li>
+                                <li class="px-2 d-inline-block"><a href="#">Supporto 2</a></li>
+                                <li class="px-2 d-inline-block"><a href="#">Supporto 3</a></li>
                             </ul>
                         </li>
                     </ul>
-                       
-                       
-                    </ul>
+
+                    <!--Parte finale account personale-->
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <a class="nav-link dropdown-toggle px-4 pt-2" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            MyPlaystation
+                        </a>
+                        <ul class="dropdown-menu playstation">
+                            <li class="d-inline-block px-3"><a href="#"><img src="./img/play-menu-ico.png"
+                                        alt="icona play" width="40" height="40"></a>Playstation3</li>
+                            <li class="d-inline-block px-3 "><a href="#"><img src="./img/play-menu-ico.png"
+                                        alt="icona play" width="40" height="40"></a>Playstation4</li>
+                            <li class="d-inline-block px-3 "><a href="#"><img src="./img/play-menu-ico.png"
+                                        alt="icona play" width="40" height="40"></a>Playstation5</li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li class="px-2 d-inline-block"><a href="#">MyPlay 1</a></li>
+                            <li class="px-2 d-inline-block"><a href="#">MyPlay 2</a></li>
+                            <li class="px-2 d-inline-block"><a href="#">MyPlay 3</a></li>
+                        </ul>
+                        <button class="btn text-white btn-hover bg-black" type="submit">Accedi</button>
+                        <a class="px-4 pt-2 text-black"><i class="bi bi-search"></i></a>
                     </form>
                 </div>
             </div>
         </nav>
-    
-</header>
+    </header>
 
 
 

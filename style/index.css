@@ -6,6 +6,7 @@
 }
 
 
+
 body {
  font-family: Helvetica, Arial, sans-serif;
 }
@@ -19,8 +20,12 @@ body {
 
 }
 
-.dropdown-menu .playstation{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.dropdown-menu {   
+    width: 100vh;  
+   text-align: center;
 }
+
+.btn {
+    border-radius: 20px;
+}
+
