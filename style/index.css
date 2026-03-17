@@ -59,9 +59,8 @@ header {
     width: 100%
 }
 
-.hero-logo img{
-    width: 20rem;
-     
+.hero-content img{
+    width: 300px;
 }
 
 @media screen and (min-width: 992px) {
@@ -101,5 +100,21 @@ header {
 
    .takestwo-content {
            width:35% ;
+    }
+}
+
+
+.ps-plus {
+    background-color:rgba(190, 188, 187) ;
+}
+
+.ps-plus-game{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+   .ps-plus-game {
+           display: block ;
     }
 }
