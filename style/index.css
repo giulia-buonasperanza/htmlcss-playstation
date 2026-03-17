@@ -13,6 +13,16 @@ body {
     border-radius: 20px;
 }
 
+.btn-animated:hover {
+  background-color: #1052ce;
+  transform: scale(1.05); 
+  box-shadow: 0 4px 12px rgba(5, 41, 160, 0.4); 
+}
+
+.btn-animated:active {
+  transform: scale(0.98);
+}
+
 /*Header*/
 .logo-sony img {
     width: 3rem;
@@ -27,7 +37,7 @@ header {
 }
 
 .dropdown-menu {
-    width: 100vh;
+    width: 100%;
     text-align: center;
 }
 
@@ -35,11 +45,22 @@ header {
     position:static;
 }
 
+.dropdown-icona:hover{
+  box-shadow: 0 20px 40px rgba(0,123,255,0.3); 
+}  
+
 .navbar{
     position:relative;
+    
 }
 
 /*Returnal*/
+
+.card-hover:hover {
+  z-index: 10;
+  transform: translateY(-8px) scale(1.02); /* Sollevamento + leggero zoom */
+  box-shadow: 0 20px 40px rgba(0,123,255,0.3); /* Ombra profonda */
+}
 
 .container-hero {
     margin-top: 80px;
@@ -71,6 +92,13 @@ header {
 }
 
 /*PS5 e componenti*/
+
+.conponent-hover:hover {
+  z-index: 10;
+  transform: translateY(-8px) scale(1.02); 
+  box-shadow: 0 20px 40px rgba(0,123,255,0.3); 
+}  
+
 .component-cont {
   display: flex;           
   flex-direction: row;     
@@ -81,7 +109,11 @@ header {
 
 .component-card {
   flex: 0 0 200px;        
-  text-align: center;      
+  text-align: center; 
+  /*position:relative;
+  z-index:1;
+  dopo che ho dato opacity passano al di sopra della navbar,
+  ho provato a dare z-index:1 ma non ha funzionato*/     
 }
 
 .component-card p {
@@ -92,8 +124,7 @@ header {
 
     .component-card p {
     display: inline-block;
-}
-   
+}  
 }
 
 /*ItTakesTwo*/
@@ -169,7 +200,7 @@ header {
     justify-content: center;
     gap: 20px;
     flex-wrap: nowrap;       
-    max-width: px;        
+    max-width: 1000px;        
     margin: 0 auto 70px;      
     padding: 20px 40px;   
 }
@@ -177,7 +208,7 @@ header {
 
 /*Footer*/
 
-/*.country::before {
+/*.country::before {btn-animated
     content: \F3EE;
     font-family;bootstrap-icon;
     margin-right: 10px;
