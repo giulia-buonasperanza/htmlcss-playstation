@@ -34,6 +34,7 @@ header {
     left: 0;
     width: 100%;
     height: 80px;
+    z-index: 1000;
 }
 
 .dropdown-menu {
@@ -113,7 +114,8 @@ header {
   /*position:relative;
   z-index:1;
   dopo che ho dato opacity passano al di sopra della navbar,
-  ho provato a dare z-index:1 ma non ha funzionato*/     
+  ho provato a dare z-index:1 ma non ha funzionato, ho dato 
+  una z-index alta all'header.*/     
 }
 
 .component-card p {
